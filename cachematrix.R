@@ -2,7 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+##MakeCacheMatrix :A pair of functions that cache the inverse of a matrix
+##This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
  invert <- NULL
         set <- function(y) {
